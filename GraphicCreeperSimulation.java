@@ -16,9 +16,10 @@ public class GraphicCreeperSimulation
         GraphicCreeper c2 = new GraphicCreeper("Bob Yoder", 50, new Color(0,255,0), 500);
         GraphicCreeper c3 = new GraphicCreeper("Eric Breimer", 60, new Color(0,0,255), 500);
         GraphicCreeper c4 = new GraphicCreeper("Robin Flatland", 7, new Color(0,100,255), 500);
+        GraphicCreeper c5 = new GraphicCreeper("Kirby O'Keefe",1, new Color(0,200,255), 500);
  
         //Update this code too so that your GraphicCreeper is checked.
-        while(c1.isAlive() && c2.isAlive() && c3.isAlive() && c4.isAlive()) {
+        while(c1.isAlive() && c2.isAlive() && c3.isAlive() && c4.isAlive()&& c5.isAlive()) {
          
             //Add your GraphicCreeper here too!
             c1.randomMove();
@@ -36,6 +37,10 @@ public class GraphicCreeperSimulation
             c4.randomMove();
             c4.checkDistance(c1);
             c4.checkDistance(c2);
+            
+            c5.randomMove();
+            c5.checkDistance(c2);
+            c5.checkDistance(c4);
         }
                
         //Add your GraphicCreeper here too!
@@ -43,5 +48,6 @@ public class GraphicCreeperSimulation
         c2.print();
         c3.print();
         c4.print();
+        c5.print();
     }
 }
