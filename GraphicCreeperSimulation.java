@@ -15,7 +15,7 @@ public class GraphicCreeperSimulation
         GraphicCreeper c1 = new GraphicCreeper("Meg Fryling", 40, new Color(255,0,0), 500);
         GraphicCreeper c2 = new GraphicCreeper("Bob Yoder", 50, new Color(0,255,0), 500);
         GraphicCreeper c3 = new GraphicCreeper("Eric Breimer", 60, new Color(0,0,255), 500);
-        GraphicCreeper c4 = new GraphicCreeper("Robin Flatland", 7, new Color(0,100,255), 500);
+        GraphicCreeper c4 = new GraphicCreeper("Nick Varlese", 7, new Color(0,100,255), 500);
  
         //Update this code too so that your GraphicCreeper is checked.
         while(c1.isAlive() && c2.isAlive() && c3.isAlive() && c4.isAlive()) {
