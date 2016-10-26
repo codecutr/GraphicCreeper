@@ -1,2 +1,2 @@
-# se2lab3
-Files for Software Engineering II Lab 3
+# GraphicCreeper
+Files for Software Engineering Lab
